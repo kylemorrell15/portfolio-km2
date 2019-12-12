@@ -1,0 +1,47 @@
+h1 { color:white; font-family: 'Roboto', sans-serif;}
+h2 { color:white; font-family: 'Roboto', sans-serif;}
+p { color:white; font-family: 'Roboto', sans-serif;}
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.backImg {
+   width: 100%;
+   height: 500vh;
+   background-image: url('red.jpg');
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: top;
+}
+ 
+.profile {
+   width: 1450px;
+   height: 100px;
+}
+
+.profileText{
+   margin-bottom: 10px;
+ }
+  
+ .proileText h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: justify;
+ }
+ 
+.gallery{
+   margin: 10px 50px;
+}
+.gallery img{
+   width: 230px;
+   padding: 5px;
+   transition: ls;
+}
+
+.gallery img:hover{
+   transform: scale(1.1);
+}
